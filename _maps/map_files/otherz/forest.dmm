@@ -103,10 +103,6 @@
 "aB" = (
 /turf/closed/mineral/rogue/iron,
 /area/rogue/outdoors/woods/wraithhouse)
-"aC" = (
-/obj/effect/mobspawner/skeleton_spawner_simple,
-/turf/open/water/swamp,
-/area/rogue/indoors/shelter/woods/overgrownfort)
 "aF" = (
 /obj/structure/flora/roguegrass/water,
 /obj/structure/flora/newtree,
@@ -497,12 +493,6 @@
 	icon_state = "rockwd"
 	},
 /area/rogue/outdoors/river)
-"cN" = (
-/obj/effect/mobspawner/goblin_spawner,
-/turf/open/floor/rogue/ruinedwood{
-	icon_state = "weird1"
-	},
-/area/rogue/indoors/shelter/woods/overgrownfort)
 "cQ" = (
 /mob/living/simple_animal/hostile/retaliate/rogue/minotaur/horny,
 /turf/open/floor/grass,
@@ -638,11 +628,6 @@
 	first_time_text = "The Woodland Tribe";
 	name = "Wood elf Tribes"
 	})
-"dx" = (
-/obj/structure/chair/stool/rogue,
-/obj/effect/mobspawner/goblin_spawner,
-/turf/open/floor/rogue/ruinedwood/spiral,
-/area/rogue/indoors/shelter/woods/overgrownfort)
 "dz" = (
 /turf/open/water/river{
 	icon_state = "rockwd";
@@ -2740,7 +2725,6 @@
 	})
 "qf" = (
 /obj/structure/chair/stool/rogue,
-/obj/effect/mobspawner/goblin_spawner,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/woods{
 	first_time_text = "The Deepwoods"
@@ -2945,14 +2929,6 @@
 /area/rogue/outdoors/woods{
 	first_time_text = "The Mountain Passe"
 	})
-"rF" = (
-/obj/effect/mobspawner/goblin_spawner{
-	min_mobs = 1;
-	max_mobs = 2;
-	mobs_to_spawn = 2
-	},
-/turf/open/floor/rogue/blocks,
-/area/rogue/indoors/shelter/woods/overgrownfort)
 "rH" = (
 /obj/structure/flora/rogueshroom/happyrandom,
 /turf/open/floor/rogue/grass,
@@ -4871,10 +4847,6 @@
 	},
 /turf/open/floor/rogue/cobblerock,
 /area/rogue/indoors/shelter/woods/overgrownfort)
-"CP" = (
-/obj/effect/mobspawner/skeleton_spawner_hard,
-/turf/open/floor/rogue/cobblerock,
-/area/rogue/indoors/shelter/woods/overgrownfort)
 "CR" = (
 /obj/structure/flora/grass/jungle/b,
 /obj/structure/flora/roguegrass,
@@ -5691,12 +5663,6 @@
 /obj/structure/fluff/statue/knight,
 /turf/open/floor/rogue/blocks/stone/stonepattern3,
 /area/rogue/indoors/shelter/town/dwarf)
-"HH" = (
-/obj/effect/mobspawner/goblin_spawner,
-/turf/open/floor/rogue/cobblerock,
-/area/rogue/outdoors/woods{
-	first_time_text = "The Deepwoods"
-	})
 "HK" = (
 /obj/machinery/light/rogue/firebowl/stump,
 /turf/open/floor/rogue/dirt,
@@ -7231,10 +7197,6 @@
 /area/rogue/outdoors/woods{
 	first_time_text = "The Deepwoods"
 	})
-"Qm" = (
-/obj/effect/mobspawner/skeleton_spawner_simple,
-/turf/open/floor/rogue/cobblerock,
-/area/rogue/indoors/shelter/woods/overgrownfort)
 "Qo" = (
 /obj/structure/spider/stickyweb{
 	icon_state = "stickyweb2"
@@ -7507,10 +7469,6 @@
 /obj/structure/fluff/statue/myth,
 /turf/open/floor/rogue/cobblerock,
 /area/rogue/indoors/cave/underdark)
-"Se" = (
-/obj/effect/mobspawner/hole/spiders/wall,
-/turf/closed/wall/mineral/rogue/stone/moss,
-/area/rogue/indoors/shelter/woods/overgrownfort)
 "Sh" = (
 /obj/structure/flora/roguetree/stump/log,
 /turf/open/floor/rogue/dirt,
@@ -22538,7 +22496,7 @@ Wx
 BJ
 BJ
 iB
-CP
+BJ
 BJ
 BJ
 BJ
@@ -23865,7 +23823,7 @@ Jt
 eR
 JT
 iB
-aC
+iB
 iB
 iB
 wT
@@ -40487,7 +40445,7 @@ wO
 Ly
 Ly
 Ly
-Se
+BP
 BJ
 bK
 BJ
@@ -41694,7 +41652,7 @@ CM
 Lc
 BP
 BJ
-Qm
+BJ
 BJ
 BJ
 Ud
@@ -58984,7 +58942,7 @@ ew
 PL
 BP
 NO
-rF
+RX
 RX
 pI
 bl
@@ -59244,7 +59202,7 @@ BP
 BP
 lF
 Cg
-dx
+Cg
 ew
 Or
 iF
@@ -59921,7 +59879,7 @@ Ou
 BP
 Ja
 Ja
-HH
+Xg
 Xg
 Tt
 hi
@@ -60181,7 +60139,7 @@ Tq
 RX
 BP
 RX
-rF
+RX
 RX
 RX
 BP
@@ -76951,7 +76909,7 @@ Pc
 Tm
 db
 db
-cN
+db
 db
 BP
 Pc
